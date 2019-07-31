@@ -1,0 +1,45 @@
+.about-team {
+    display: flex;
+    flex-direction: row;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    background-color: @light-grey;
+    padding: 10px 10px;
+    text-align: center;
+    font-size: 20px;
+
+    @media @tablet {
+        flex-flow: row wrap;
+    }
+
+    @media @mobile {
+        flex-direction: column;
+        font-size: 20px;
+        padding: 20px 0;
+    }
+
+    .team-members {
+        padding: 10px 0;
+        margin: 20px 10px;
+        width: 25%;
+    }
+
+    img {
+        width: 35%;
+        border-radius: 100%;
+        box-shadow: @box-shadow;
+
+        @media @laptop {
+            margin-top: 20px;
+            width: 25%;
+        }
+    }
+
+    .fab {
+        font-size: 22px;
+
+        @media @laptop {
+            font-size: 28px;
+        }
+    }
+}

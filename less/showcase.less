@@ -1,0 +1,79 @@
+#showcase {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.8)),
+  url("../images/header.jpg");	
+  background-size: cover;
+  background-position: center;
+  height: 67vh;
+	text-align: center;
+  padding: 100px 20px;
+  color: @white;
+  z-index: -1;
+}
+
+.showcase-cta {
+  position: relative;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 80px;
+  z-index: 2;
+  
+  @media @mobile {
+    padding-top: 90px;
+  }
+
+  h1 {
+    font-size: 60px;
+    line-height: 1.2em;
+    padding-bottom: 30px;
+
+    
+    @media @tablet {
+      font-size: 50px;
+    }
+    
+    @media @mobile {
+      font-size: 40px; 
+    }
+  }
+  
+  p {
+    font-size: 30px;
+    line-height: 1.6em;
+    max-width: 80%;
+    padding-bottom: 30px;
+
+    @media @laptop {
+      font-size: 25px
+    }
+    
+    @media @tablet {
+      font-size: 23px;
+    }
+    
+    @media @mobile {
+      font-size: 20px; 
+      max-width: 90%;
+    }
+  }
+
+  .sign-up {
+    font-size: 17px;
+    margin-top: 10px;
+
+    a {
+      font-size: 17px;
+      text-decoration: none;
+      color: @default;
+      letter-spacing: 1.5px;
+      border-bottom: 1px solid @white;
+      padding-bottom: 5px;
+
+      &:hover {
+        color: @white;
+        border-bottom: 1px solid @default;
+      }
+    }
+  }
+}
