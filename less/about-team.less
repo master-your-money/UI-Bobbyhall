@@ -28,11 +28,15 @@
         width: 35%;
         border-radius: 100%;
         box-shadow: @box-shadow;
-        padding-top: 20px;
+        margin-top: 20px;
 
+        @media @laptop {
+            width: 40%;
+        }
+        
         @media @tablet {
             margin-top: 20px;
-            width: 35%;
+            width: 25%;
         }
     }
 
@@ -42,5 +46,9 @@
         @media @laptop {
             font-size: 28px;
         }
+    }
+
+    .role {
+        font-size: 16px;
     }
 }
