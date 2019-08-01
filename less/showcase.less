@@ -42,7 +42,7 @@
     font-size: 30px;
     line-height: 1.6em;
     max-width: 80%;
-    padding-bottom: 30px;
+    padding-bottom: 10px;
 
     @media @laptop {
       font-size: 25px
@@ -60,19 +60,22 @@
 
   .sign-up {
     font-size: 17px;
-    margin-top: 10px;
+    margin-top: 20px;
 
     a {
       font-size: 17px;
+      font-weight: bold;
       text-decoration: none;
-      color: @default;
+      background-color: @grey;
+      color: @black;
       letter-spacing: 1.5px;
-      border-bottom: 1px solid @white;
-      padding-bottom: 5px;
-
+      border-radius: 7px;
+      padding: 5px 10px;
+      margin-left: 5px;
+  
       &:hover {
         color: @white;
-        border-bottom: 1px solid @default;
+        background: @default;
       }
     }
   }
