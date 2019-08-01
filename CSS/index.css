@@ -179,7 +179,7 @@ img {
   font-size: 30px;
   line-height: 1.6em;
   max-width: 80%;
-  padding-bottom: 30px;
+  padding-bottom: 10px;
 }
 @media (max-width: 900px) {
   .showcase-cta p {
@@ -199,19 +199,22 @@ img {
 }
 .showcase-cta .sign-up {
   font-size: 17px;
-  margin-top: 10px;
+  margin-top: 20px;
 }
 .showcase-cta .sign-up a {
   font-size: 17px;
+  font-weight: bold;
   text-decoration: none;
-  color: #11998e;
+  background-color: #d3d3d3;
+  color: #333;
   letter-spacing: 1.5px;
-  border-bottom: 1px solid #fff;
-  padding-bottom: 5px;
+  border-radius: 7px;
+  padding: 5px 10px;
+  margin-left: 5px;
 }
 .showcase-cta .sign-up a:hover {
   color: #fff;
-  border-bottom: 1px solid #11998e;
+  background: #11998e;
 }
 #about-showcase {
   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.8)), url("../images/about-header.jpg");
@@ -254,8 +257,7 @@ img {
   transition: 0.3s;
 }
 .btn-container .button.button:hover {
-  color: #11998e;
-  background: #fff;
+  color: #fff;
 }
 .btn-container .small-button {
   font-size: 20px;
@@ -273,8 +275,7 @@ img {
   transition: 0.3s;
 }
 .btn-container .small-button:hover {
-  color: #11998e;
-  background: #d3d3d3;
+  color: #fff;
 }
 #navbar {
   text-transform: uppercase;
